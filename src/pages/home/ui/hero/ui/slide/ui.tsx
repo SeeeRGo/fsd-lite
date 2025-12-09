@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 import { Title, MovieRating } from 'shared/ui';
 import styles from './styles.module.scss';
 import type { HeroMovie } from './types';

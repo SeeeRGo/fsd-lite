@@ -1,4 +1,4 @@
-import type { VideoTypes, Video } from 'shared/api/types';
+import type { VideoTypes, Video } from 'shared/parts/api/types';
 
 export function getTrailer(videos: VideoTypes | undefined): Video | undefined {
   const trailers = videos?.trailers ?? videos?.teasers ?? [];

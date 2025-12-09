@@ -2,8 +2,8 @@ import { createStore, sample } from 'effector';
 import { createGate } from 'effector-react';
 import { sessionModel } from 'entities/session';
 import { and } from 'patronum';
-import { atom } from 'shared/factory';
-import type { MovieEntity } from 'shared/api/types';
+import { atom } from 'shared/parts/factory';
+import type { MovieEntity } from 'shared/parts/api/types';
 import { arrayToQueryParams, sortByIds } from '../lib';
 import { favoritesQuery, moviesQuery } from '../api';
 

@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import type { CSSProperties } from 'react';
 import { useState } from 'react';
 import { movieModel } from 'pages/movie';
-import { useToggler } from 'shared/lib';
+import { useToggler } from 'shared/parts/lib';
 import { Modal, Spinner, Icon } from 'shared/ui';
 import { useWindowSize } from './lib';
 import styles from './styles.module.scss';

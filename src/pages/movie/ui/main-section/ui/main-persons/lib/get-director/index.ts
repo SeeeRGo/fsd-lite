@@ -1,4 +1,4 @@
-import type { PersonInMovie } from 'shared/api/types';
+import type { PersonInMovie } from 'shared/parts/api/types';
 
 export function getDirector(persons: PersonInMovie[]) {
   const director = persons?.filter(

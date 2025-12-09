@@ -1,4 +1,4 @@
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 import type { IconName } from 'shared/ui/icon';
 
 interface ProfileItem {

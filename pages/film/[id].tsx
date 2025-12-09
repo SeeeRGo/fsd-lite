@@ -1,7 +1,7 @@
 import { allSettled, fork, serialize } from 'effector';
 import type { GetServerSideProps } from 'next';
 import { movieModel } from 'pages/movie';
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const scope = fork();

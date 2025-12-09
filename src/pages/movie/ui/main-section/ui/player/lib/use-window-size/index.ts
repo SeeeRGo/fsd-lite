@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { isClient } from 'shared/config';
+import { isClient } from 'shared/parts/config';
 
 type UseWindowSizeOutput = {
   width: number;

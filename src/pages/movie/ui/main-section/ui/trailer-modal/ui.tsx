@@ -1,7 +1,7 @@
 import { useUnit } from 'effector-react';
 import { useState } from 'react';
 import { movieModel } from 'pages/movie';
-import { useToggler } from 'shared/lib/toggler';
+import { useToggler } from 'shared/parts/lib/toggler';
 import { Popup, Spinner } from 'shared/ui';
 import { getTrailer } from './lib';
 import styles from './styles.module.scss';

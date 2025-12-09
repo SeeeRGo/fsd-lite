@@ -1,7 +1,7 @@
 import { createQuery } from '@farfetched/core';
-import { createCommonRequestFx } from 'shared/api/requests';
-import type { Movies } from 'shared/api/types';
-import { GenresEnum, CURRENT_YEAR } from 'shared/config';
+import { createCommonRequestFx } from 'shared/parts/api/requests';
+import type { Movies } from 'shared/parts/api/types';
+import { GenresEnum, CURRENT_YEAR } from 'shared/parts/config';
 
 export const newMoviesQuery = createQuery({
   effect: createCommonRequestFx<void, Movies>({

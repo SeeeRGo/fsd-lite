@@ -2,8 +2,8 @@ import { useUnit } from 'effector-react';
 import { homeModel } from 'pages/home';
 import { Category } from 'widgets/category';
 import { MovieItem } from 'entities/movie/item';
-import { GenresEnum, SortEnum } from 'shared/config';
-import { paths } from 'shared/routing';
+import { GenresEnum, SortEnum } from 'shared/parts/config';
+import { paths } from 'shared/parts/routing';
 
 export const ForFamily = () => {
   const { familyMovies } = useUnit({ familyMovies: homeModel.$familyMovies });

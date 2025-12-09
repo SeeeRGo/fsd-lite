@@ -1,8 +1,8 @@
 import { createEffect, createEvent, createStore, sample } from 'effector';
 import { checkFavoriteQuery } from 'features/favorites';
 import { sessionModel } from 'entities/session';
-import { atom } from 'shared/factory';
-import { createToggler } from 'shared/lib/toggler';
+import { atom } from 'shared/parts/factory';
+import { createToggler } from 'shared/parts/lib/toggler';
 import { notificationModel } from 'entities/notification';
 import { and } from 'patronum';
 import { createGate } from 'effector-react';

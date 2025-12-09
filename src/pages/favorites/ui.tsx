@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { useGate, useUnit } from 'effector-react';
 import { MovieItem } from 'entities/movie/item';
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 import { Icon, Spinner, Title } from 'shared/ui';
 import { Breadcrumbs } from 'shared/ui/breadcrumbs';
 import { favoritesPageModel } from './model';

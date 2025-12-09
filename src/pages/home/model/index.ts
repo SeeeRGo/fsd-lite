@@ -1,6 +1,6 @@
 import { sample } from 'effector';
 import { createGate } from 'effector-react';
-import { atom } from 'shared/factory';
+import { atom } from 'shared/parts/factory';
 import {
   comedyMoviesQuery,
   dramaMoviesQuery,

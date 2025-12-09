@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { useUnit } from 'effector-react';
 import { useState } from 'react';
 import { movieModel } from 'pages/movie';
-import { useToggler } from 'shared/lib/toggler';
+import { useToggler } from 'shared/parts/lib/toggler';
 import { Button, Title, Popup } from 'shared/ui';
 import styles from './styles.module.scss';
 

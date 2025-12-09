@@ -1,7 +1,7 @@
 import { useUnit, useGate } from 'effector-react';
 import Link from 'next/link';
 import { sessionModel } from 'entities/session';
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 import { Button, Icon, Title } from 'shared/ui';
 import { Breadcrumbs } from 'shared/ui/breadcrumbs';
 import { Spinner } from 'shared/ui/spinner';

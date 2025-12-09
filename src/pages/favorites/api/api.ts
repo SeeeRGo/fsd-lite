@@ -1,9 +1,9 @@
 import { createQuery } from '@farfetched/core';
-import type { Movies } from 'shared/api/types';
+import type { Movies } from 'shared/parts/api/types';
 import {
   createCommonRequestFx,
   createInternalRequestFx,
-} from 'shared/api/requests';
+} from 'shared/parts/api/requests';
 import type { FavoriteItems } from './types';
 
 export const favoritesQuery = createQuery({

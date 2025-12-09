@@ -1,5 +1,5 @@
 import { createEvent, sample } from 'effector';
-import { atom } from 'shared/factory';
+import { atom } from 'shared/parts/factory';
 import { personByIdQuery } from '../api';
 
 export const personModel = atom(() => {

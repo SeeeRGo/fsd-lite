@@ -3,7 +3,7 @@ import { useUnit } from 'effector-react';
 import { useRouter } from 'next/router';
 import { movieModel } from 'pages/movie';
 import { favoritesModel } from 'features/favorites';
-import { useToggler } from 'shared/lib';
+import { useToggler } from 'shared/parts/lib';
 import { Icon } from 'shared/ui/icon';
 import styles from './styles.module.scss';
 

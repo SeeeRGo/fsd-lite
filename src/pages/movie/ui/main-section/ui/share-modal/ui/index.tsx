@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import { useRouter } from 'next/router';
 import { CSSTransition } from 'react-transition-group';
 import { movieModel } from 'pages/movie';
-import { useToggler } from 'shared/lib/toggler';
+import { useToggler } from 'shared/parts/lib/toggler';
 import { Title, Popup, Icon } from 'shared/ui';
 import { useUnit } from 'effector-react';
 import { items } from '../config';

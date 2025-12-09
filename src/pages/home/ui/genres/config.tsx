@@ -1,5 +1,5 @@
-import { GenresEnum } from 'shared/config';
-import { paths } from 'shared/routing';
+import { GenresEnum } from 'shared/parts/config';
+import { paths } from 'shared/parts/routing';
 import { Icon } from 'shared/ui/icon';
 
 export const genres = [

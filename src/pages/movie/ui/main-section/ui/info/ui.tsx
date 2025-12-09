@@ -1,6 +1,6 @@
 import { useUnit } from 'effector-react';
 import { movieModel } from 'pages/movie';
-import { getRating, minutesToHour, getSeasonString } from 'shared/lib';
+import { getRating, minutesToHour, getSeasonString } from 'shared/parts/lib';
 import { MovieRating } from 'shared/ui/movie-rating';
 import { getCountry, getAgeRating, getGenre } from './lib';
 import styles from './styles.module.scss';

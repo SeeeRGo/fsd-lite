@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { useUnit } from 'effector-react';
 import { movieModel } from 'pages/movie';
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 import { Link } from 'shared/ui/link';
 import { getActors, getDirector } from './lib';
 import styles from './styles.module.scss';

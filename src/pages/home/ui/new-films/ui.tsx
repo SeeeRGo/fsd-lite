@@ -2,7 +2,7 @@ import { useUnit } from 'effector-react';
 import { homeModel } from 'pages/home';
 import { Category } from 'widgets/category';
 import { MovieItem } from 'entities/movie/item';
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 
 export const NewFilms = () => {
   const { newMovies } = useUnit({ newMovies: homeModel.$newMovies });

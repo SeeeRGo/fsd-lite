@@ -1,7 +1,7 @@
 import { allSettled, fork, serialize } from 'effector';
 import type { GetServerSideProps } from 'next';
 import { personModel } from 'pages/person';
-import { paths } from 'shared/routing';
+import { paths } from 'shared/parts/routing';
 
 export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const scope = fork();
