@@ -9,7 +9,7 @@ import { Notification } from 'entities/notification';
 import { Seo } from './seo';
 
 // run process logic for all base layout pages
-import 'app/processes/root';
+import 'app/processes-root';
 
 export const BaseLayout = ({ children }: PropsWithChildren) => {
   const router = useRouter();
