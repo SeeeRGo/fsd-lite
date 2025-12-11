@@ -1,3 +1,3 @@
 export { MoviePage } from './ui';
-export * from './logic-movie/model';
-export * from './lib';
+export * from './shared/logic-movie/model';
+export * from './shared/lib';
